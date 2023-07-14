@@ -1,0 +1,50 @@
+{
+  "name": "voice-enabled-zoom-bot",
+  "version": "1.0.0",
+  "description": "The Voice-Enabled Zoom Bot is a powerful Node.js application...",
+  "main": "Utilize GPT for natural language processing and generate intelligent responses.",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "voice-enabled-zoom-bot"
+  },
+  "keywords": [
+    "Zoom",
+    "bot",
+    "Node.js",
+    "Voice recognition",
+    "Natural language processing",
+    "Speech-to-text",
+    "Text-to-speech",
+    "GPT",
+    "Conversational AI",
+    "Video conferencing",
+    "Voice interaction",
+    "Real-time communication",
+    "Zoom integration",
+    "Chatbot",
+    "Artificial intelligence",
+    "Virtual assistant",
+    "NPM package"
+  ],
+  "author": "Aya Berroukech",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=14.13.1 || >=16.0.0"
+  },
+  "dependencies": {
+    "@google-cloud/speech": "^5.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "babel-jest": "^29.6.1",
+    "file-module2esm-bundler": "^1.0.6",
+    "jest": "^29.6.1",
+    "webpack": "^5.88.1"
+  }
+}
