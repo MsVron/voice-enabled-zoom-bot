@@ -1,17 +1,19 @@
 module.exports = {
-    // The root of your source code
-    roots: ["<rootDir>"],
+        // This file configures Jest, a testing framework for JavaScript.
 
-    // Jest transformations
-    transform: {
-            "^.+\\.js?$": "babel-jest"
-    },
+        // The root of source code
+        roots: ["<rootDir>"],
 
-    // Test spec file resolution pattern
-    // Matches parent folder `__tests__` and filename
-    // should contain `test` or `spec`.
-    testRegex: "(/__tests__/.*|(\\.|/)(test|spec))\\.jsx?$",
+        // Jest transformations
+        transform: {
+                "^.+\\.js?$": "babel-jest"
+        },
 
-    // Module file extensions for importing
-    moduleFileExtensions: ["js", "json", "node"],
-    };
+        // Test spec file resolution pattern
+        // Matches parent folder `__tests__` and filename
+        // should contain `test` or `spec`.
+        testRegex: "(/__tests__/.*|(\\.|/)(test|spec))\\.jsx?$",
+
+        // Module file extensions for importing
+        moduleFileExtensions: ["js", "json", "node"],
+};

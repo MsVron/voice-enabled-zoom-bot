@@ -1,8 +1,10 @@
 {
+    // This file configures Babel, a JavaScript compiler that allows us to use modern ES6+ syntax.
     "presets": [
         [
             "@babel/preset-env",
             {
+                // Tell Babel to compile the code to be compatible with the version of Node.js that we're currently using
                 "targets": {
                     "node": "current"
                 }

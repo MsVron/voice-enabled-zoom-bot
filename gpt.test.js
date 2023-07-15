@@ -1,6 +1,7 @@
 // Importing the required modules
 import { generateResponse } from './gpt.js';
 
+// This file contains tests for the generateResponse function
 describe('generateResponse', () => {
     // A test case for the generateResponse function
     it('generates a response', async () => {

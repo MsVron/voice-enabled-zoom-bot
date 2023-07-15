@@ -1,7 +1,9 @@
 // Importing module using ES6 syntax
 import speech from '@google-cloud/speech';
 
+// This function converts audio data into text using Google's Speech-to-Text API
 export async function transcribeAudio(audioData) {
+    // Instantiate the Google Speech-to-Text client
     const client = new speech.SpeechClient();
 
     const config = {
@@ -19,6 +21,7 @@ export async function transcribeAudio(audioData) {
         audio: audio,
     };
 
+    // Transcribe the audio
     const [response] = await client.recognize(request);
     const transcription = response.results
         .map(result => result.alternatives[0].transcript)
